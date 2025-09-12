@@ -61,14 +61,14 @@
 }
 
 .p-12 {
-    padding: 12px 0px;
+    padding: 12px 20px;
 }
 
 /* heder :start */
 
 
 .logo img {
-    width: 100%;
+    width: 220px;
 }
 
 .serch {
@@ -101,7 +101,7 @@
 
 .icon i {
     color: #941b1e;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .nav-con h6 {
@@ -124,7 +124,7 @@
 }
 
 .p-20 {
-    padding: 30px 0px;
+    padding: 30px 20px;
 }
 
 .pos-rel {
@@ -163,6 +163,18 @@
 
 .dropdown li {
     margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.dropdown li a{
+    color: #941b1e !important;
+    font-weight: 550 !important;
+    transition: 0.5s !important; 
+}
+
+.dropdown li a:hover{
+    color: #1d3464 !important;
+    font-weight: bold !important;
 }
 
 .menu ul li:hover .dropdown {
@@ -457,6 +469,45 @@
     font-size: 16px;
 }
 /* Eight hero section End  */
+
+/* nine hero section :start */
+
+.bg-image-last{
+  background-image: linear-gradient(rgba(148, 27, 30, .85), rgba(148, 27, 30, .85)), url(./image/wave.png);
+    width: 100%;
+    height: 100%;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.con-nine{
+    padding: 50px 65px;
+}
+
+.con-nine img{
+    border: 2px solid #fff;
+    border-radius:50% ;
+    width: 78px;
+    display:inline-block;
+    padding: 10px;
+    background: #1d3464;   
+}
+
+.con-nine h1{
+    font-size: 39px;
+    margin: 10px 0px !important;
+    color: #fff;
+}
+
+.con-nine p{
+    font-size: 22px;
+    color: #fff;
+}
+
+
+
+/* nine hero section :End */
 
 /* footer section :start */
 
