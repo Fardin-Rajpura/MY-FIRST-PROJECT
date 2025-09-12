@@ -70,6 +70,7 @@
     border-color: #555;
     outline: none;
     border-radius: 50px;
+    position: relative;
     transition: 0.5s;
 }
 
@@ -81,6 +82,14 @@
 .serch:focus {
     border-color: #941b1e;
     box-shadow: 0px 0px 5px #941b1e;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    z-index: 1;
+    top: 45px;
+    padding-left: 15px;
+    font-size: 20px;
 }
 
 .icon i {
@@ -111,7 +120,7 @@
     padding: 30px 0px;
 }
 
-.pos-rel{
+.pos-rel {
     position: relative;
 }
 
@@ -129,14 +138,14 @@
 }
 
 .color {
-    color: #600b0d !important;
+    color: #941b1e !important;
 }
 
 /* nav bar :end */
 
 /* Dropdown menu strat */
 
-.dropdown{
+.dropdown {
     position: absolute;
     display: none;
     padding-top: 10px !important;
@@ -149,7 +158,7 @@
     margin-bottom: 10px;
 }
 
-.menu ul li:hover .dropdown{
+.menu ul li:hover .dropdown {
     display: block;
 }
 
@@ -184,6 +193,7 @@
 
 .hero-con h1 span {
     color: #1d3467;
+    font-weight: 900 !important;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -630,43 +640,43 @@ h6:hover {
 
 /* six hero section :end */
 
- /* seven hero section :start */
+/* seven hero section :start */
 
- .seven-main{
-    padding: 100px 0px ;
- }
+.seven-main {
+    padding: 100px 0px;
+}
 
- .seven-main img{
+.seven-main img {
     width: 100%;
     margin-left: -100px;
- }
+}
 
- .seven-containt{
+.seven-containt {
     margin-top: 170px;
- }
+}
 
- .seven-containt h5{
+.seven-containt h5 {
     color: #1d3464;
     font-size: 20px;
-    margin: 0px 0px 8px ;
-    font-weight: 900!important;
- }
+    margin: 0px 0px 8px;
+    font-weight: 900 !important;
+}
 
- .seven-containt h3{
+.seven-containt h3 {
     font-size: 44px;
     color: #941b1e;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
     margin: 0px 0px 8px;
- }
+}
 
- .seven-containt h6{
+.seven-containt h6 {
     font-size: 40px;
     color: #600b0d;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
-    margin: 0px 0px 16px ;
- }
+    margin: 0px 0px 16px;
+}
 
- .seven-containt p{
+.seven-containt p {
     font-size: 16px;
     margin: 0px 0px 16px;
 }
@@ -681,25 +691,201 @@ h6:hover {
     margin: 0px 0px 16px;
 }
 
-.list-1{
+.list-1 {
     padding-right: 50px;
     line-height: 30PX;
     font-size: 16px;
 }
 
 .list-1 li,
-.list-2 lid{
-    list-style:disc;
+.list-2 lid {
+    list-style: disc;
 }
 
-.list-2{
+.list-2 {
     line-height: 30PX;
     font-size: 16px;
 }
 
- /* seven hero section end */
+/* seven hero section end */
+
+/* therd hero section :start */
+
+.main-conte{
+    margin: 50px 0px 0px 20px;
+}
+
+.main-conte h2{
+    font-size: 22px;
+    color: #1d3464;
+    padding-bottom:10px ;
+}
+
+.main-conte h1{
+    font-size: 44px;
+    color: #941b1e;
+    font-weight: bold !important;
+    margin-bottom: 60px;
+}
+
+.main-conte h1  span{
+    color: #600b0d;
+    border-bottom: 2px solid #1d3464;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.card{
+    border: 2px solid black ;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 23%;
+    padding: 8px;
+    margin: 10px 10px;
+}
+
+.card img{
+    width: 100%;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.card h3 a{
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    color:#1d3464;
+    background: #1d346720;
+}
+
+.card h2{
+    color: #000000;
+    font-size: 20px;
+    padding: 20px 0px 10px 0px;
+    line-height: 30px;
+}
+
+.card p{
+    font-size: 15px;
+    line-height: 22px;
+    padding-bottom: 20px;
+}
+
+.card a{
+    font-size: 20px;
+    padding: 8px 15px;
+    background: #1d3464;
+    color: #fff;
+    font-weight: bold !important;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+
+/* therd hero section end*/
+
+
+/* Eight hero section start  */
+
+.con-eight{
+    margin: 50px 30px;
+}
+
+.con-eight h2{
+    font-size: 22px;
+    color: #1d3464;
+    margin-bottom: 10px;
+}
+
+.con-eight h1{
+    font-size: 35px;
+    color: #600b0d;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.con-eight h1 span{
+    color: #941b1e;
+    border-bottom: 2px solid #1d3464;
+}
+
+.logo-review{
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.logo-review:hover{
+    box-shadow: 0px 0px 5px 0px #2c2c2c;
+    border-radius: 10px;
+}
+
+.logo-review img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.review{
+    margin-top: 3px;
+}
+
+.review h5{
+    font-size: 16px;
+    color: #000;    
+    letter-spacing: 1px;
+    transition: 0.5s;
+    padding-bottom: 10px;
+}
+
+.review h5:hover{
+    color:blue ;
+}
+
+.review h5 span{
+    font-size: 14px;
+    margin-left: 80px;
+    color: #000;
+    font-weight: 500;
+    
+}
+
+.review i{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.review p{
+    font-size: 15px;
+    color: #000000;
+    border-bottom: 1px solid #000;
+    padding-bottom: 14px;
+    margin-bottom: 10px;
+}
+
+.g{
+    border-radius: 15%;
+    width: 18px;
+    font-size: 13px;
+    height: 18px;
+    color: #fff;
+    padding-left: 3px;
+    display: inline-block;
+    line-height: 18px;
+    background: rgb(0, 128, 255);
+}
+
+.review span{
+    font-size: 16px;
+}
+/* Eight hero section End  */
+
 
 /* footer section :start */
+
+.foot-bg{
+    background: #5555550c;
+    color: #000000;
+}
 
 .foot-con {
     margin: 60px 50px;
@@ -750,6 +936,33 @@ h6:hover {
 
 /* footer section :end */
 
+
+/* footer .icon */
+
+.foot-icon{
+    margin-top: 20px;
+}
+
+.foot-icon i{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    font-size: px;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 45px;
+    color: #941b1e;
+    background: #941b1e20;
+    transition: 0.5s;
+}
+
+.foot-icon i:hover{
+    background: #1d346720;
+    color: #1d3464;
+}
+
+/* footer icon :end */
+
 /* sec foooter :start */
 
 .bg-sec-color {
@@ -770,5 +983,3 @@ h6:hover {
 .foot-end {
     font-weight: bold;
 }
-
-
