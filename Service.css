@@ -183,6 +183,77 @@
 
 /* Dropdown menu end */
 
+/* new hero section add start */
+
+.new-main{
+    margin: 50px 30px 50px 30px;
+}
+
+.new-main p{
+    font-size: 18px;
+    color: #1d3464;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.new-main h2{
+    font-size: 32px;
+    color: #941b1e;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.new-main h2 span{
+    color: #600b0d;
+    border-bottom: 2px solid #1d3464;
+    padding-bottom: 8px;
+}
+
+.new-img img{
+    width: 100%;
+    height: 700px;
+}
+
+.new-para p{
+    margin: 20px 0px 0px;
+    color: #585858;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.new-para p span{
+    color: #1d3467;
+}
+
+.new-list h3{
+    font-size: 20px;
+    margin: 20px 0px 0px;
+    color: #1d3464;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+
+.new-list ul {
+    margin-top: 20px;
+}
+
+.new-list ul li {
+    font-size: 20px;
+    color: #585858;
+}
+
+.new-list ul li i{
+    font-size: 5px;
+    color: #585858;
+    margin-right: 10px;
+}
+
+
+
+/* new hero section add end */
+
 /* hero section strat */
 
 .hero-image{
@@ -414,7 +485,6 @@ hr{
     width: 45px;
     height: 45px;
     margin-right: 10px;
-    font-size: px;
     border-radius: 50%;
     display: inline-block;
     line-height: 45px;
